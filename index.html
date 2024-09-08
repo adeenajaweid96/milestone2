@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main-container">
+        <div class="container">
+            <h1 class="main-head">Resume Builder</h1>
+            <form id="resume-form">
+                <label for="name" class="name">Name:</label><br />
+                <input type="text" id="name" placeholder="Name" required><br />
+
+                <label for="email">Email:</label><br />
+                <input type="email" id="email" placeholder="Email" required><br />
+
+                <label for="number">Phone Number:</label><br />
+                <input type="number" id="phone" placeholder="Phone Number" required><br />
+
+                <label for="address">Address:</label><br />
+                <input type="text" id="address" placeholder="Address" required><br />
+
+                <label for="education">Education:</label><br />
+                <input type="text" id="education" placeholder="Add Education" required><br />
+
+                <label for="Skill">Skill:</label><br />
+                <input type="text" id="skill" placeholder="Add Skills" required> <br />
+
+                <label for="Skill">Experience:</label><br />
+                <input type="text" id="experience" placeholder="Add Experience" required> <br />
+
+                <button type="submit" id="generate-btn" class="btn-submit">Generate Resume</button>
+
+            </form>
+
+            <section id="resume-section">
+                <h2 style="margin-top: 20px;">Your Resume</h2>
+                <div id="resume-content"></div>
+            </section>
+
+        </div>
+
+    </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
